@@ -11,6 +11,8 @@
 		C09A224A2535CFCA001DCDB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A22492535CFCA001DCDB8 /* ContentView.swift */; };
 		C09A224C2535CFCB001DCDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A224B2535CFCB001DCDB8 /* Assets.xcassets */; };
 		C09A224F2535CFCB001DCDB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A224E2535CFCB001DCDB8 /* Preview Assets.xcassets */; };
+		C0E5B2EA2538F17700738AEF /* Quuk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0E5B2E82538F17700738AEF /* Quuk.xcdatamodeld */; };
+		C0E5B2ED2538F1FF00738AEF /* persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E5B2EC2538F1FF00738AEF /* persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C09A224B2535CFCB001DCDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09A224E2535CFCB001DCDB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C09A22502535CFCB001DCDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E5B2E92538F17700738AEF /* Quuk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quuk.xcdatamodel; sourceTree = "<group>"; };
+		C0E5B2EC2538F1FF00738AEF /* persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				C09A22472535CFCA001DCDB8 /* jus4kApp.swift */,
 				C09A22492535CFCA001DCDB8 /* ContentView.swift */,
+				C0E5B2EC2538F1FF00738AEF /* persistence.swift */,
+				C0E5B2E82538F17700738AEF /* Quuk.xcdatamodeld */,
 				C09A224B2535CFCB001DCDB8 /* Assets.xcassets */,
 				C09A22502535CFCB001DCDB8 /* Info.plist */,
 				C09A224D2535CFCB001DCDB8 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09A224A2535CFCA001DCDB8 /* ContentView.swift in Sources */,
+				C0E5B2ED2538F1FF00738AEF /* persistence.swift in Sources */,
+				C0E5B2EA2538F17700738AEF /* Quuk.xcdatamodeld in Sources */,
 				C09A22482535CFCA001DCDB8 /* jus4kApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +336,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0E5B2E82538F17700738AEF /* Quuk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0E5B2E92538F17700738AEF /* Quuk.xcdatamodel */,
+			);
+			currentVersion = C0E5B2E92538F17700738AEF /* Quuk.xcdatamodel */;
+			path = Quuk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C09A223C2535CFCA001DCDB8 /* Project object */;
 }
